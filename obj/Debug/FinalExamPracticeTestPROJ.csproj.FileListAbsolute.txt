@@ -1,0 +1,7 @@
+C:\VSprojects\FinalExamPracticeTestPROJ\bin\Debug\FinalExamPracticeTestPROJ.exe.config
+C:\VSprojects\FinalExamPracticeTestPROJ\bin\Debug\FinalExamPracticeTestPROJ.exe
+C:\VSprojects\FinalExamPracticeTestPROJ\bin\Debug\FinalExamPracticeTestPROJ.pdb
+C:\VSprojects\FinalExamPracticeTestPROJ\obj\Debug\FinalExamPracticeTestPROJ.csprojAssemblyReference.cache
+C:\VSprojects\FinalExamPracticeTestPROJ\obj\Debug\FinalExamPracticeTestPROJ.csproj.CoreCompileInputs.cache
+C:\VSprojects\FinalExamPracticeTestPROJ\obj\Debug\FinalExamPracticeTestPROJ.exe
+C:\VSprojects\FinalExamPracticeTestPROJ\obj\Debug\FinalExamPracticeTestPROJ.pdb
