@@ -11,8 +11,8 @@ namespace FinalExamPracticeTestPROJ
         static void Main(string[] args)
         {
             //Exercise 1
-            Console.WriteLine("The greatest number of the 3 entered is:" + getGreatestValueof3());
-            Console.ReadLine();
+            //Console.WriteLine("The greatest number of the 3 entered is:" + getGreatestValueof3());
+
 
             //Exercise Extra
             //isKnumbertheAddof2();
@@ -21,7 +21,12 @@ namespace FinalExamPracticeTestPROJ
             //GetStudentsGrade();
 
             //Exercise 3
-            CountTheNumberOfDigits();
+            //Console.WriteLine("The number of digits of the integer number entered is:" + CountTheNumberOfDigits());
+
+            //Exercise 4
+            //PrintTableOfChars();
+
+            Console.ReadLine();
 
             string sentence = Console.ReadLine();
         }
@@ -126,7 +131,25 @@ namespace FinalExamPracticeTestPROJ
         //3.Write a method that counts the number of digits in an integer number.For example; 23498 has five digits.
         static private int CountTheNumberOfDigits()
         {
-            return 0;
+            int numberEntered;
+            string numberEnteredSTRNG;
+            Console.WriteLine("To calculate the number of digits, ENTER an integer number please:");
+            numberEnteredSTRNG = Console.ReadLine();
+            int.TryParse(numberEnteredSTRNG, out numberEntered);
+
+            Console.WriteLine("the number entered as INTEGER is:" + numberEntered.ToString());
+            Console.WriteLine("the number entered as STRING is:" + numberEnteredSTRNG);
+            Console.WriteLine("");
+            return numberEnteredSTRNG.Length;
         }
+
+        //4.Write a method to print the table of characters that are equivalent to the ASCII codes from 1 to 122.
+        //  The program will print the 10 characters per line.
+        static private void PrintTableOfChars()
+        {
+
+        }
+
+
     }
 }
